@@ -14,13 +14,15 @@ Ma  la tipografia per stampare il tutto vuole che le mandiamo una lista di ospit
     3. Dobbiamo creare una lista di tutti gli studenti che hanno un totale di voti superiore a 70 e id superiore a 120
 Buon pomeriggio e buon lavoro !!! :nerd_face:
 ### Questo è l'elenco degli studenti:
-Id  Name                Grades
-213 Giuseppina della Rovere 78
-110 Paola Cortellessa       96
-250 Andrea Mantegna         48
-145 Gaia Borromini          74
-196 Luigi Grimaldello       68
-102 Piero della Francesca   50
-120 Francesca da Polenta    84
+
+| Id | Name |              Grades |
+| --- | --- | --- |
+| 213 | Giuseppina della Rovere | 78 |
+| 110 | Paola Cortellessa |      96 |
+| 250 | Andrea Mantegna |        48 |
+| 145 | Gaia Borromini |         74 |
+| 196 | Luigi Grimaldello |      68 |
+| 102 | Piero della Francesca |  50 |
+| 120 | Francesca da Polenta |   84 |
 N.B.
 Questo esercizio deve essere completato entro la mattinata di domani
