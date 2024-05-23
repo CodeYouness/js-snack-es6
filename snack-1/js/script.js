@@ -3,6 +3,8 @@ const invited = ['Brad Pitt', 'Johnny Depp', 'Lady Gaga', 'Cristiano Ronaldo', '
 const invitedInfo = invited.map((names, i) => {
     return {
         tableName: 'Tavolo Vip',
+        guestName: names,
+        place: i + 1
     }
 
 })
