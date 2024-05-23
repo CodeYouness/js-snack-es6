@@ -4,7 +4,7 @@ const invitedInfo = []
 invited.forEach((people, i) => {
     invitedInfo.push({
         tableName: 'Tavolo Vip',
-        guestName: people.toUpperCase(),
+        guestName: people,
         place: i + 1,
     })
 })
