@@ -47,7 +47,9 @@ students.forEach((student, i) => {
         wellGrades.push(student)
     }
 
-
+    if (student.grades > 70 && student.id > 120) {
+        highId.push(student)
+    }
 })
 
-console.log(upperCaseName, wellGrades)
+console.log(upperCaseName, wellGrades, highId)
