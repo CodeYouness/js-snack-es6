@@ -35,3 +35,19 @@ const students = [
         grades: 84
     }
 ]
+
+const upperCaseName = []
+const wellGrades = []
+const highId = []
+
+students.forEach((student, i) => {
+    upperCaseName.push(student.name.toUpperCase())
+
+    if (student.grades > 70) {
+        wellGrades.push(student)
+    }
+
+
+})
+
+console.log(upperCaseName, wellGrades)
