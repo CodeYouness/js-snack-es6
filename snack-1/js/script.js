@@ -12,8 +12,9 @@ const invitedInfo = invited.map((names, i) => {
 
 console.log(invitedInfo)
 
-
+// fatto in ciclo foreach con
 /*
+const invitedInfo = []
 invited.forEach((people, i) => {
     invitedInfo.push({
         tableName: 'Tavolo Vip',
