@@ -8,3 +8,4 @@ invited.forEach((people, i) => {
         place: i + 1,
     })
 })
+console.log(invitedInfo)
