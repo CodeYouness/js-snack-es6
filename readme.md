@@ -82,3 +82,21 @@ Questo esercizio deve essere completato entro la mattinata di domani
     - se il voto è superiore a 70 e il suo id è superiore a 120
         - lo aggiungo all ultimo contenitore
     
+### Snack 3
+- creo arrayA di oggeti con bikeName e bikeWeight come proprietà
+- creo arrayB con la prima bicicletta dell array
+- ripeto queste cose per ogni bici:
+    - se la bici dell' arrayB ha un peso maggiore della bici nella posizione del numero del ciclo allora:
+        - cambio nell'arrayB la bici con quella appena usata per la comparazione
+- estraggo da arrayB nome e peso
+- stampo nome e peso
+
+### Snack 4
+- creo array di oggeti con: nome, punti fatti:0 e falli subiti:0
+- creo una funzione per generare numeri random da 1 a 10
+- per ogni elemento dell'array:
+    1. genero un numero random e lo metto nei punti fatti
+    2. genero un numero random e lo metto nei falli subiti
+
+
+
