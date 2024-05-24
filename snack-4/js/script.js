@@ -20,3 +20,9 @@ const footballTeam = [
     { nome: "Juventude", puntiFatti: 0, falliSubiti: 0 },
     { nome: "Chapecoense", puntiFatti: 0, falliSubiti: 0 }
 ];
+
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min
+}
+
+console.log(getRandomInt(1, 10))
