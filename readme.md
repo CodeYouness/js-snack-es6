@@ -46,12 +46,12 @@ Questo esercizio deve essere completato entro la mattinata di domani
 # BONUS 1: SNACK 5
 - Abbiamo questa lista di articoli di moda:
 
-| name |        type |     color |
-| --- | --- | --- |
-| Poppy |      tshirt |   red |
-| Jumping   |  occhiali | blue |
-| CrissCross | scarpe |   black |
-| Jenny |      borsa  |   pink |
+| Name       | Type      | Color |
+|------------|-----------|-------|
+| Poppy      | tshirt    | red   |
+| Jumping    | occhiali  | blue  |
+| CrissCross | scarpe    | black |
+| Jenny      | borsa     | pink  |
 
 - Questi articoli sono inseriti in un array di oggetti.
 - Dobbiamo attaccare a ognuno un cartellino position con una lettera dell'alfabeto generata casualmente e inserire gli oggetti così modificati in un nuovo array di oggetti.
@@ -97,6 +97,16 @@ Questo esercizio deve essere completato entro la mattinata di domani
 - per ogni elemento dell'array:
     1. genero un numero random e lo metto nei punti fatti
     2. genero un numero random e lo metto nei falli subiti
+
+### Snack 5 (bonus)
+- genero array di oggetti dalla tabella
+- creo una funzione randomLetter:
+    1. creo un elemento con tutte le lettere
+    2. genero un numero random
+    3. ritorno la lettera nella posizione del numero random
+- per ogni array dell oggetto:
+    - aggiungo position: funzione randomLetter all array
+    - aggiungo l array ad un nuovo array di oggetti
 
 
 
