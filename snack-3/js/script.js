@@ -18,4 +18,6 @@ bike.forEach(bikeEl => {
     }
 });
 
-console.log(lightBike)
+const { bikeName, bikeWeight } = lightBike
+
+console.log(`Il modello più leggero del catagolo è la ${bikeName} e pesa ${bikeWeight}`)
