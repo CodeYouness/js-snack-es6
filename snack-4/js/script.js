@@ -21,11 +21,16 @@ const footballTeam = [
     { nome: "Chapecoense", puntiFatti: 0, falliSubiti: 0 }
 ];
 
+let nameAndFoul = []
+
 footballTeam.forEach((team, i) => {
     team.puntiFatti = getRandomInt(1, 10)
     team.falliSubiti = getRandomInt(1, 10)
+    const { nome, falliSubiti } = team
+    nameAndFoul.push(nome, falliSubiti)
 })
 
+console.log(nameAndFoul)
 
 
 
