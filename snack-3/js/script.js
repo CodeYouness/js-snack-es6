@@ -10,4 +10,12 @@ const bike = [
     { bikeName: "Canyon", bikeWeight: 7.9 },
     { bikeName: "BMC", bikeWeight: 8.1 }
 ];
-let lightBike;
+let lightBike = bike[0]
+
+bike.forEach(bikeEl => {
+    if (bikeEl.bikeWeight < lightBike.bikeWeight) {
+        lightBike = bikeEl
+    }
+});
+
+console.log(lightBike)
