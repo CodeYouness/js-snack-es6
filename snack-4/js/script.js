@@ -21,8 +21,17 @@ const footballTeam = [
     { nome: "Chapecoense", puntiFatti: 0, falliSubiti: 0 }
 ];
 
+footballTeam.forEach((team, i) => {
+    team.puntiFatti = getRandomInt(1, 10)
+    team.falliSubiti = getRandomInt(1, 10)
+})
+
+
+
+
+
+
 function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min
 }
 
-console.log(getRandomInt(1, 10))
